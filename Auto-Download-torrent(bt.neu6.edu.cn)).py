@@ -6,6 +6,7 @@ Date:2019.09.26
     且utorrent设置为不弹窗，直接下载，否则会出现未知问题。
     2.此脚本启动后，一小时自动执行一次(可自行更改频率)，除非人工关闭。
     3.脚本启动后，会在当前路径下生成一个cookies.txt文件
+    4.此脚本仅限六维空间使用(bt.neu6.edu.cn)
 '''
 import requests, os, re, time
 import http.cookiejar as cookielib
